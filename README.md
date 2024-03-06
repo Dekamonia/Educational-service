@@ -2,6 +2,15 @@
 
 Education stats - онлайн-сервис для получения статистики успеваемости студентов.
 
+Стек технологий: Python, FastAPI, PostgreSQL, React.js
+
+Функционал API:
+ - GET /students: Получить список всех студентов.
+ - GET /students/{student_id}: Получить информацию о конкретном студенте.
+ - POST /students: Добавить нового студента.
+ - PUT /students/{student_id}: Обновить информацию о студенте.
+ - DELETE /students/{student_id}: Удалить студента.
+
 
 
 Задачи и сроки реализации:
